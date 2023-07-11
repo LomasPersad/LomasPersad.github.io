@@ -563,12 +563,19 @@ section {
   margin-bottom: 10px;
 }
 
+.resume .resume-item h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f5297;
+  margin-bottom: 5px;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 2px;
+  padding-bottom: 3px;
 }
 
 .resume .resume-item:last-child {
@@ -608,10 +615,10 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #272829;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
@@ -650,7 +657,7 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -80px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -664,16 +671,27 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a p{
+  color: rgb(253, 253, 253);
+  /* font-size: 28px;
+  text-align: center;
+  background: rgba(20, 157, 221, 0.75);
+  transition: 0.3s;
+  width: 100%; */
+  padding: 1px;
+  justify-content: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+/* .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
-}
+} */
 
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
