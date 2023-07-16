@@ -33,6 +33,10 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.altBackground{
+  background-color: #0f264711;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -79,7 +83,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #010e22;
+  background: #07162c;
   /* background-image: url('../img/sidebar-bg2.jpg'); */
   overflow-y: auto;
 }
@@ -342,6 +346,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 19px;
 }
 
 /*--------------------------------------------------------------
@@ -385,6 +390,7 @@ section {
 .facts {
   padding-bottom: 30px;
 }
+
 
 .facts .count-box {
   padding: 30px;
@@ -431,7 +437,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -669,7 +675,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(8, 19, 25, 0.736);
   transition: 0.3s;
   width: 100%;
 }
@@ -686,7 +692,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgb(0, 0, 0);
 }
 
 /* .portfolio .portfolio-wrap .portfolio-links a + a {
