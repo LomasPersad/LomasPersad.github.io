@@ -33,7 +33,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.altBackground{
+.altBackground {
   background-color: #0f264711;
 }
 
@@ -391,7 +391,6 @@ section {
   padding-bottom: 30px;
 }
 
-
 .facts .count-box {
   padding: 30px;
   width: 100%;
@@ -647,7 +646,7 @@ section {
 }
 
 .portfolio .portfolio-wrap::before {
-  content: "";
+  /* content: ""; */
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
@@ -663,7 +662,7 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -80px;
+  bottom: -100px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -673,14 +672,19 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  font-size: 28px;
+  font-size: 1.5em;
   text-align: center;
   background: rgba(8, 19, 25, 0.736);
   transition: 0.3s;
   width: 100%;
+  border-radius: 12px;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a p{
+.portfolio .portfolio-wrap a img {
+  border-radius: 15px;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a p {
   color: rgb(253, 253, 253);
   /* font-size: 28px;
   text-align: center;
@@ -716,7 +720,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .portfolio-details .portfolio-details-slider img {
