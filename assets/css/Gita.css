@@ -593,18 +593,85 @@ figcaption {
 }
 
 /* Custom CSS for Image Zoom */
-.image-container {
-  position: relative;
-  overflow: hidden;
+.image-container2 {
+  overflow: inherit;
 }
 
-.image-container img {
+.image-container2 img {
   display: block;
-  max-width: 100%;
+  max-width: 120%;
   transition: transform 0.3s ease;
 }
 
-.image-container:hover img {
-  transform: scale(2); /* Adjust the scale value for the desired zoom level */
+.image-container2:hover img {
+  transform: scale(1.8); /* Adjust the scale value for the desired zoom level */
   transform-origin: center center; /* Zoom from the top-left corner */
+}
+
+/* CSS for Outstanding Quote Style */
+.outstanding-quote {
+  background-color: #f5f5f5;
+  border-left: 5px solid #0056b3;
+  padding: 20px;
+  margin: 20px 0;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #333;
+  position: relative;
+}
+
+.outstanding-quote:before {
+  content: "\201C"; /* Opening Double Quote */
+  font-size: 40px;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  color: #136cfc;
+}
+
+.outstanding-quote:after {
+  content: "\201D"; /* Closing Double Quote */
+  font-size: 40px;
+  position: absolute;
+  bottom: -10px;
+  right: -30px;
+  color: #136cfc;
+}
+
+/* CSS for Two-Column Layout */
+.verse-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.verse-column {
+  flex: 1;
+}
+
+.sanskrit-column {
+  text-align: right;
+  margin-right: 20px; /* Add some spacing between the columns */
+}
+
+.translation-column {
+  text-align: left;
+  margin-left: 10px; /* Add some spacing between the columns */
+}
+
+.sanskrit-verse {
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+}
+
+.translation-verse {
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  color: #555;
 }
